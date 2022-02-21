@@ -7996,14 +7996,14 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="SW1" library="adafruit" deviceset="SPST_TACT" device="-KMR2" value="KMR211NGLFS "/>
 <part name="SW2" library="Glen-MillMax-110-47-316-41-105000" deviceset="110-47-316-41-105000" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="R4" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="R0603"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R8" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
@@ -8014,6 +8014,7 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <text x="96.52" y="78.74" size="3.81" layer="97">Decoupling</text>
 <text x="165.1" y="86.36" size="3.81" layer="97">ESD Protection</text>
 <text x="215.9" y="114.3" size="1.778" layer="97" align="top-left">ERG SDS-8-014</text>
+<text x="177.8" y="162.56" size="1.778" layer="97">Pullup resistors R1-R8 are 100k.</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="35.56" y="142.24" rot="MR0"/>
@@ -8074,14 +8075,30 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 </instance>
 <instance part="SW2" gate="G$1" x="226.06" y="137.16" rot="MR270"/>
 <instance part="SUPPLY7" gate="GND" x="236.22" y="119.38" rot="MR0"/>
-<instance part="R1" gate="G$1" x="172.72" y="152.4" rot="R90"/>
-<instance part="R2" gate="G$1" x="177.8" y="152.4" rot="R90"/>
-<instance part="R3" gate="G$1" x="182.88" y="152.4" rot="R90"/>
-<instance part="R4" gate="G$1" x="187.96" y="152.4" rot="R90"/>
-<instance part="R5" gate="G$1" x="193.04" y="152.4" rot="R90"/>
-<instance part="R6" gate="G$1" x="198.12" y="152.4" rot="R90"/>
-<instance part="R7" gate="G$1" x="203.2" y="152.4" rot="R90"/>
-<instance part="R8" gate="G$1" x="208.28" y="152.4" rot="R90"/>
+<instance part="R1" gate="G$1" x="172.72" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="171.2214" y="148.59" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="R2" gate="G$1" x="177.8" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="176.3014" y="148.59" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="R3" gate="G$1" x="182.88" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="181.3814" y="148.59" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="R4" gate="G$1" x="187.96" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="186.4614" y="148.59" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="R5" gate="G$1" x="193.04" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="191.5414" y="148.59" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="R6" gate="G$1" x="198.12" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="196.6214" y="148.59" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="R7" gate="G$1" x="203.2" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="201.7014" y="148.59" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="R8" gate="G$1" x="208.28" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="206.7814" y="148.59" size="1.778" layer="95" rot="R90"/>
+</instance>
 <instance part="P+4" gate="1" x="172.72" y="165.1" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="172.72" y="165.608" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
