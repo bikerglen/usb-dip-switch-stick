@@ -2130,37 +2130,29 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="OC_NEWARK" value="unknown" x="26.035" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="15.01" y="5.59625" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
 </element>
-<element name="R1" library="rcl" package="R0603" value="" x="26.035" y="15.5575" smashed="yes" rot="MR90">
+<element name="R1" library="rcl" package="R0603" value="100k" x="26.035" y="15.5575" smashed="yes" rot="MR90">
 <attribute name="NAME" x="26.67" y="15.5575" size="0.8128" layer="26" font="vector" ratio="16" rot="MR90" align="bottom-center"/>
-<attribute name="VALUE" x="24.13" y="14.9225" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R2" library="rcl" package="R0603" value="" x="28.575" y="15.5575" smashed="yes" rot="MR90">
+<element name="R2" library="rcl" package="R0603" value="100k" x="28.575" y="15.5575" smashed="yes" rot="MR90">
 <attribute name="NAME" x="29.21" y="15.5575" size="0.8128" layer="26" font="vector" ratio="16" rot="MR90" align="bottom-center"/>
-<attribute name="VALUE" x="26.67" y="14.9225" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R3" library="rcl" package="R0603" value="" x="31.115" y="15.5575" smashed="yes" rot="MR90">
+<element name="R3" library="rcl" package="R0603" value="100k" x="31.115" y="15.5575" smashed="yes" rot="MR90">
 <attribute name="NAME" x="31.75" y="15.5575" size="0.8128" layer="26" font="vector" ratio="16" rot="MR90" align="bottom-center"/>
-<attribute name="VALUE" x="29.21" y="14.9225" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R4" library="rcl" package="R0603" value="" x="33.655" y="15.5575" smashed="yes" rot="MR90">
+<element name="R4" library="rcl" package="R0603" value="100k" x="33.655" y="15.5575" smashed="yes" rot="MR90">
 <attribute name="NAME" x="34.29" y="15.5575" size="0.8128" layer="26" font="vector" ratio="16" rot="MR90" align="bottom-center"/>
-<attribute name="VALUE" x="31.75" y="14.9225" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R5" library="rcl" package="R0603" value="" x="27.305" y="2.2225" smashed="yes" rot="MR270">
+<element name="R5" library="rcl" package="R0603" value="100k" x="27.305" y="2.2225" smashed="yes" rot="MR270">
 <attribute name="NAME" x="26.67" y="2.2225" size="0.8128" layer="26" font="vector" ratio="16" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="29.21" y="2.8575" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R6" library="rcl" package="R0603" value="" x="29.845" y="2.2225" smashed="yes" rot="MR270">
+<element name="R6" library="rcl" package="R0603" value="100k" x="29.845" y="2.2225" smashed="yes" rot="MR270">
 <attribute name="NAME" x="29.21" y="2.2225" size="0.8128" layer="26" font="vector" ratio="16" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="31.75" y="2.8575" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R7" library="rcl" package="R0603" value="" x="32.385" y="2.2225" smashed="yes" rot="MR270">
+<element name="R7" library="rcl" package="R0603" value="100k" x="32.385" y="2.2225" smashed="yes" rot="MR270">
 <attribute name="NAME" x="31.75" y="2.2225" size="0.8128" layer="26" font="vector" ratio="16" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="34.29" y="2.8575" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R8" library="rcl" package="R0603" value="" x="34.925" y="2.2225" smashed="yes" rot="MR270">
+<element name="R8" library="rcl" package="R0603" value="100k" x="34.925" y="2.2225" smashed="yes" rot="MR270">
 <attribute name="NAME" x="34.29" y="2.2225" size="0.8128" layer="26" font="vector" ratio="16" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" x="36.83" y="2.8575" size="1.27" layer="28" rot="MR270"/>
 </element>
 </elements>
 <signals>
